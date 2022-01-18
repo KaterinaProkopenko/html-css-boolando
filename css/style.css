@@ -6,24 +6,26 @@
 
 img {
     width: 100%;
-    height: 330px;
-    background-color: blueviolet;
+    height: 500px;
 }
 
 .container {
-    width: 700px;
-    background-color: thistle;
+    width: 1000px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .card {
-    width: 220px;
-    height: 400px;
-    background-color: aquamarine;
+    width: 320px;
+    height: 600px;
     position: relative;
     display: inline-block;
 }
+
+/*.img-card {
+    width: 100%;
+    height: 500px;
+}*/
 
 .card-center {
     margin-left: 10px;
@@ -31,28 +33,74 @@ img {
 }
 
 .heart {
-    width: 30px;
-    height: 30px;
-    background-color: red;
+    width: 40px;
+    height: 40px;
+    background-color: white;
     position: absolute;
     right: 0;
-    top: 20px;
-}
+    top: 15px;
+    font-size: 23px;
+    text-align: center;
+    line-height: 40px;
 
-.special {
-    width: 60px;
-    height: 20px;
-    background-color: saddlebrown;
-    position: absolute;
-    left: 50px;
-    bottom: 80px;
 }
 
 .sale {
-    width: 40px;
-    height: 30px;
-    background-color: violet;
+    background-color: rgb(221, 19, 53);
     position: absolute;
-    bottom: 80px;
+    bottom: 110px;
 }
 
+.special {
+    background-color: rgb(19, 134, 77);
+    position: absolute;
+    left: 35px;
+    bottom: 110px;
+}
+
+.font {
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+.label {
+    padding-top: 5px;
+}
+
+.label, .price, .old-price {
+    font-size: 15px;
+}
+
+.type {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    color: rgb(221, 19, 53);
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
+/*#first-card{
+    background: url(../img/1.webp);
+}
+
+#first-card:hover #hidden-first-card {
+    background: url(../img/1b.webp);
+}*/
+
+#no-sale {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+}
