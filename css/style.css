@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 220px;
+    height: 400px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.img {
+    height: 330px;
+    background-color: blueviolet;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.special {
+    width: 60px;
+    height: 20px;
+    background-color: saddlebrown;
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+}
+
+.sale {
+    width: 40px;
+    height: 30px;
+    background-color: violet;
+    position: absolute;
+    bottom: 80px;
+}
